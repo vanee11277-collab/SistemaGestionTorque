@@ -260,4 +260,35 @@ git push origin feature-nueva-funcionalidad
 - Inteligencia artificial para predicción de fallas.
 - Integración en tiempo real con ToolsNet.
 - Notificaciones por correo electrónico.
+### Implementación local
 
+1. Compilar el proyecto:
+
+```bash
+mvn clean install
+```
+
+2. Ejecutar la aplicación:
+
+```bash
+java -jar SistemaGestionTorque.jar
+```
+
+3. Acceder desde el navegador:
+
+```text
+http://localhost:8080
+```
+
+### Implementación en la nube
+
+La solución podrá desplegarse en plataformas como Heroku, Render o Azure App Service mediante la publicación del archivo JAR generado durante la compilación del proyecto.
+
+Pasos generales:
+
+1. Generar el archivo JAR con Maven.
+2. Crear una cuenta en la plataforma seleccionada.
+3. Crear una nueva aplicación.
+4. Cargar el archivo JAR o conectar el repositorio GitHub.
+5. Configurar variables de entorno y base de datos.
+6. Publicar la aplicación.
