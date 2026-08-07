@@ -29,16 +29,7 @@ Actualmente el área de Torque utiliza la plataforma Atlas Copco ToolsNet para a
 Desarrollar un Sistema de Gestión y Análisis de Torque que permita centralizar consultas, realizar búsquedas por VIN, herramienta o controlador, generar reportes de manera rápida e identificar tendencias y alertas relevantes para el personal de Torque.
 
 Las principales funcionalidades incluyen:
-
-- Consulta por VIN.
-- Consulta de herramientas.
-- Consulta de controladores.
-- Consulta de eventos.
-- Historial de torques.
-- Generación de reportes.
-- Administración de usuarios.
-- Gestión de alertas.
-- ## Arquitectura
+## Arquitectura
 
 ```text
                 Usuario
@@ -63,15 +54,20 @@ Las principales funcionalidades incluyen:
                     │
                     ▼
           Alertas y Reportes
-### Tecnologías
 ```
+
+La arquitectura propuesta está compuesta por una interfaz web para los usuarios del área de Torque, una capa de lógica de negocio encargada de procesar la información relacionada con herramientas, controladores, eventos y resultados de torque, y una capa de almacenamiento para administrar los datos históricos y generar reportes.
+
+### Tecnologías
+
 - Java
 - Git
 - GitHub
 
 ### Autor
-```
+
 Vanessa Yamileth Aguado Rangel
+
 ## Tabla de Contenidos
 
 - Descripción
@@ -84,6 +80,14 @@ Vanessa Yamileth Aguado Rangel
 - Uso
 - Contribución
 - Roadmap
+- Consulta por VIN.
+- Consulta de herramientas.
+- Consulta de controladores.
+- Consulta de eventos.
+- Historial de torques.
+- Generación de reportes.
+- Administración de usuarios.
+- Gestión de alertas.
 
 ## Requerimientos
 
