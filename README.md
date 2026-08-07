@@ -130,9 +130,8 @@ Vanessa Yamileth Aguado Rangel
 4. Instalar MySQL 8.0.
 5. Clonar el repositorio:
 
-```bash
-git clone https://github.com/vanee11277-collab/SistemaGestionTorque.git
-```
+Repositorio:
+https://github.com/vanee11277-collab/SistemaGestionTorque
 
 ### Ejecutar pruebas manualmente
 
