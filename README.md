@@ -257,3 +257,4 @@ git push origin feature-nueva-funcionalidad
 - Inteligencia artificial para predicción de fallas.
 - Integración en tiempo real con ToolsNet.
 - Notificaciones por correo electrónico.
+
