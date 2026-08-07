@@ -64,7 +64,7 @@ Las principales funcionalidades incluyen:
                     ▼
           Alertas y Reportes
 ### Tecnologías
-
+...
 - Java
 - Git
 - GitHub
