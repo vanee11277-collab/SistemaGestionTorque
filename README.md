@@ -64,13 +64,13 @@ Las principales funcionalidades incluyen:
                     ▼
           Alertas y Reportes
 ### Tecnologías
-...
+```
 - Java
 - Git
 - GitHub
 
 ### Autor
-
+```
 Vanessa Yamileth Aguado Rangel
 ## Tabla de Contenidos
 
